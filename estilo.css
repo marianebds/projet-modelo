@@ -1,19 +1,24 @@
-.cabeçalho {
-    background-color: grey; 
-    height: 60px;
-    text-align: right center;
-    padding: 3px;
-    line-height: 60px;
-    color: rgb(80, 76, 76); 
-    font-weight: bold;
+body{
+    background: rgb(216, 209, 209) url(fundo.png) ;
 }
 
-.titulos{
-    color: gray;
-} 
 h2{
     color: gray;
 }
 p{
     font-family: 'Times New Roman', Times, serif';
 }
+
+    .cabeçalho {
+        background-color: grey; 
+        height: 60px;
+        text-align: right center;
+        padding: 3px;
+        line-height: 60px;
+        color: rgb(80, 76, 76); 
+        font-weight: bold;
+    }
+
+    .titulos{
+        color: gray;
+    } 
