@@ -1,24 +1,28 @@
 body{
     background: rgb(216, 209, 209) url(fundo.png) ;
+    font: 16px Arial, Helvetica, sans-serif;
+    width: 900px;
+}
+#principal {
+    width: 900px;
 }
 
-h2{
-    color: gray;
-}
-p{
-    font-family: 'Times New Roman', Times, serif';
+#menu {
+    background: #c5c5b2;
+    padding: 18px; 
+    width: 890px;
 }
 
-    .cabeçalho {
-        background-color: grey; 
-        height: 60px;
-        text-align: right center;
-        padding: 3px;
-        line-height: 60px;
-        color: rgb(80, 76, 76); 
-        font-weight: bold;
-    }
-
-    .titulos{
-        color: gray;
-    } 
+a{ 
+    color: #4b566a;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+.conteudo {
+    background-color: white;
+    padding: 10px;
+}
+.ft-campanha {
+    border: 10px solid #c5c5b2;
+}
